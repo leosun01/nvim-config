@@ -212,6 +212,7 @@ return {
         'stylua',
         'css-lsp',
         'html-lsp', -- Used to format Lua code
+        'markdownlint',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
@@ -228,5 +229,5 @@ return {
         },
       }
     end,
-  }
+  },
 }
