@@ -73,3 +73,9 @@ vim.opt.scrolloff = 10
 
 -- Ensure termguicolors is enabled if not already
 vim.opt.termguicolors = true
+
+-- Break lines by words instead of characters
+vim.opt.linebreak = true
+
+vim.opt.wrap = true
+-- vim.opt.textwidth = 30
